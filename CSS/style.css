@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "beyond_the_mountains";
+  src: url("../fonts/beyond_the_mountains.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  margin-bottom: 10px;
+  padding-left: 0 !important;
+}
+header {
+  background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
+    url("../images/bg_header.webp");
+  background-size: cover;
+  background-position: center center;
+  /* Code xong sẽ xóa, để hiển thị tạm thời */
+  min-height: 800px;
+}
+.navTop {
+  background-color: #350a4e;
+  color: #fff;
+}
+.navTop .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navTop_socialNetwork,
+.navTop_logIn {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.navTop_socialNetwork ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navTop_socialNetwork ul li:first-child {
+  margin-right: 80px;
+}
+.navTop_socialNetwork ul li:nth-child(2) {
+  margin: 0 8px;
+}
+.navTop_socialNetwork ul li:nth-child(3) {
+  margin: 0 8px;
+}
+.navTop_socialNetwork ul li:nth-child(4) {
+  margin: 0 8px;
+}
+.navTop_socialNetwork ul li:nth-child(5) {
+  margin: 0 8px;
+}
+.navTop_socialNetwork ul li:nth-child(6) {
+  margin: 0 8px;
+}
+.navTop_socialNetwork ul li:last-child {
+  margin: 0 8px;
+}
+
+.navTop_logIn ul {
+  list-style-type: none;
+  display: flex;
+}
+.navBar {
+  background: rgba(54, 19, 84, 0.6);
+  color: #fff;
+}
+.navBar .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar .navBarLeft {
+  display: flex;
+}
+.navBarLeft ul {
+  list-style-type: none;
+  display: flex;
+}
+.navBarLeft p {
+  padding-top: 13px;
+}
+.navBarCenter ul {
+  list-style-type: none;
+  display: flex;
+}
+.navBarCenter {
+  display: flex;
+  align-items: center;
+}
+.navBarRight {
+  display: flex;
+  align-items: center;
+}
+.navBarCenter ul li {
+  margin: 0 8px;
+}
+.navBarRight ul {
+  list-style-type: none;
+  display: flex;
+}
+.navBarCenter {
+  position: relative;
+}
+.navBarCenter,
+.navBarLeft,
+.navBarRight {
+  margin-top: 10px;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.navBarCenter ul li a:hover {
+  color: #fff;
+}
+.navBarCenter a::after {
+  content: "";
+  display: block;
+  background: linear-gradient(to right, #fa9e1b, #8d4fff);
+  /* position: absolute;
+  left: -3%;
+  top: 25px; */
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+.navBarCenter a:hover::after {
+  opacity: 1;
+}
+.button1 {
+  background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);  
+  background-size: 200%;
+  font-size: 13px;
+  color: #fff;
+  display: inline-blocks;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 15px 45px 15px 45px;
+  text-align: center;
+  border: none;
+  /* opacity: 0; */
+  transition: all 500ms ease;
+  transform: scale(1);
+}
+.container2 {
+  justify-content: center;
+  display: flex;
+}
+.navBarRight {
+  font-size: 18px;
+  cursor: pointer;
+}
+.button1 {
+  background-position: right center;
+}
+.button1:hover {
+  background-position: right center;
+  /* background: linear-gradient(225deg, #fa9e1b, #8d4fff); */
+  transform: scale(1.1);
+  background-position: right center;
+}
+.button1 :hover::after {
+  opacity: 1;
+}
+.navBarRight:hover {
+  color: orange;
+}
+.navTop_logIn ul li {
+  cursor: pointer;
+}
+.navTop_socialNetwork ul li {
+  cursor: pointer;
+}
+.middleTitleHeader :first-child {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+}
+.middleTitleHeader :nth-child(2) {
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-family: "beyond_the_mountains";
+}
+.container2 .button1 span i {
+  font-size: 5px;
+  vertical-align: middle;
+  padding: 0 2px;
+}
+.container2 .button1 span i:nth-child(2) {
+  opacity: 0.6;
+}
+.container2 .button1 span i:last-child {
+  opacity: 0.4;
+}
+
+section.bestTour {
+  margin-top: 100px;
+}
+section.bestTour .container {
+  text-align: center;
+}
+section.bestTour .container h2 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+section.bestTour .container p {
+  font-style: italic;
+  color: #929191;
+  font-size: 24px;
+  padding: 0 100px 0 100px;
+}
+section.bestTour .bestTourCard {
+  display: flex;
+  justify-content: space-between;
+}
+section.bestTour .bestTourCard .item{
+  /* background-color: #fa9e1b; */
+  /* background: url('../images/bestTour_bg_1.webp'); */
+  background-size: cover;
+  background-position: center center;
+  padding: 40px;
+  height: 450px;
+}
+section.bestTour .bestTourCard .item:first-child {
+  /* background-color: #fa9e1b; */
+  background: url('../images/bestTour_bg_1.webp');
+}
+section.bestTour .bestTourCard .item:nth-child(2) {
+  background: url('../images/bestTour_bg_2.webp');
+}
+section.bestTour .bestTourCard .item:nth-child(3) {
+  background: url('../images/bestTour_bg_3.webp');
+}
