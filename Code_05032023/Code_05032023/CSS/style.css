@@ -138,7 +138,7 @@ p {
   opacity: 1;
 }
 .button1 {
-  background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+  background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);  
   background-size: 200%;
   font-size: 13px;
   color: #fff;
@@ -215,7 +215,6 @@ section.bestTour .container h2 {
   margin-bottom: 50px;
   font-weight: bold;
   font-size: 2.5rem;
-  color: #fff;
 }
 
 section.bestTour .container p {
@@ -228,7 +227,7 @@ section.bestTour .bestTourCard {
   display: flex;
   justify-content: space-between;
 }
-section.bestTour .bestTourCard .item {
+section.bestTour .bestTourCard .item{
   /* background-color: #fa9e1b; */
   /* background: url('../images/bestTour_bg_1.webp'); */
   background-size: cover;
@@ -238,63 +237,22 @@ section.bestTour .bestTourCard .item {
 }
 section.bestTour .bestTourCard .item:first-child {
   /* background-color: #fa9e1b; */
-  background: url("../images/bestTour_bg_1.webp");
+  background: url('../images/bestTour_bg_1.webp');
 }
 section.bestTour .bestTourCard .item:nth-child(2) {
-  background: url("../images/bestTour_bg_2.webp");
+  background: url('../images/bestTour_bg_2.webp');
 }
 section.bestTour .bestTourCard .item:nth-child(3) {
-  background: url("../images/bestTour_bg_3.webp");
+  background: url('../images/bestTour_bg_3.webp');
 }
 
 /* section best offers */
-section.bestOffer .item_left img {
-  width: 100%;
+section.bestOffer .item_left img{
+  display: none;
 }
-section.bestOffer .item_left span {
-  background-color: #fa9e1b;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  left: 0;
-  padding: 10px 35px;
-  position: relative;
-  bottom: 65px;
-}
+section.bestOffer .item_left span{
+background-color: #fa9e1b;
+color: white;
+text-transform: uppercase;
 
-section .bestTourCardButton .button2{
-  background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
-  background-size: 200%;
-  font-size: 13px;
-  color: #fff;
-  display: inline-blocks;
-  border-radius: 30px;
-  text-transform: uppercase;
-  padding: 15px 60px 15px 60px;
-  text-align: center;
-  border: none;
-  /* opacity: 0; */
-  transition: all 500ms ease;
-  transform: scale(1);
-  margin-top: 80px;
-
-  
-}
-.bestTourCardButton .button2 span i {
-  font-size: 5px;
-  vertical-align: middle;
-  padding: 0 2px;
-}
-.bestTourCardButton .button2 span i:nth-child(2) {
-  opacity: 0.6;
-}
-.bestTourCardButton .button2 span i:last-child {
-  opacity: 0.4;
-}
-section.bestTour .bestTourCard .item .bestTourCardCalendar span{
-  background-color: #fa9e1b;
-  border-radius: 30px;
-  padding: 5px 40px;
-  margin-bottom: 30px;
 }
