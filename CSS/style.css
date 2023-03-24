@@ -233,7 +233,7 @@ section.bestTour .bestTourCard .item {
   /* background: url('../images/bestTour_bg_1.webp'); */
   background-size: cover;
   background-position: center center;
-  padding: 40px;
+  padding: 40px 0px;
   height: 450px;
 }
 section.bestTour .bestTourCard .item:first-child {
@@ -263,7 +263,7 @@ section.bestOffer .item_left span {
   bottom: 65px;
 }
 
-section .bestTourCardButton .button2{
+section .bestTourCardButton .button2 {
   background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
   background-size: 200%;
   font-size: 13px;
@@ -278,8 +278,6 @@ section .bestTourCardButton .button2{
   transition: all 500ms ease;
   transform: scale(1);
   margin-top: 80px;
-
-  
 }
 .bestTourCardButton .button2 span i {
   font-size: 5px;
@@ -292,9 +290,93 @@ section .bestTourCardButton .button2{
 .bestTourCardButton .button2 span i:last-child {
   opacity: 0.4;
 }
-section.bestTour .bestTourCard .item .bestTourCardCalendar span{
+section.bestTour .bestTourCard .item .bestTourCardCalendar span {
   background-color: #fa9e1b;
   border-radius: 30px;
   padding: 5px 40px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
+.costBestOffer {
+  margin-top: -25px;
+}
+
+.costBestOffer h2 {
+  color: #fa9e1b;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.costBestOffer p {
+  display: inline-block;
+  font-size: 14px;
+  color: #929191;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.bestOffer_star i:first-child {
+  color: #ffeb8d;
+}
+
+.bestOffer_star i:nth-child(2) {
+  color: #fed46b;
+}
+.bestOffer_star i:nth-child(3) {
+  color: #fbb53d;
+}
+.bestOffer_star i:nth-child(4) {
+  color: #fa9e1b;
+}
+.bestOffer_star i:nth-child(5) {
+  color: #a5a5a5;
+}
+
+.bestOffer_star {
+  letter-spacing: 0.5px;
+}
+
+.item_right > div > p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #929191;
+}
+.bestOfferIcons {
+  letter-spacing: 8px;
+}
+.item_right > a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+
+.item_right > a:hover {
+  color: #fa9e1b;
+}
+
+.bestOffer .item_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .bestTourCard p i:first-child {
+  color: #ffeb8d;
+}
+.container .bestTourCard p i:nth-child(2) {
+  color: #fed46b;
+}
+.container .bestTourCard p i:nth-child(3) {
+  color: #fbb53d;
+}
+.container .bestTourCard p i:nth-child(4) {
+  color: #fa9e1b;
+}
+.container .bestTourCard p i:nth-child(5) {
+  color: #a5a5a5;
+}
+.bestTourCard p i {
+  /* letter-spacing: 2px; */
+  margin: 0 1px;
+}
+
