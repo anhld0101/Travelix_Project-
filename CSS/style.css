@@ -74,6 +74,23 @@ header {
   background: rgba(54, 19, 84, 0.6);
   color: #fff;
 }
+/* 
+  class custom jquery navbar fixed when scroll
+*/
+.navbarFixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  min-height: 100px !important;
+  height: 0 !important;
+  background: rgb(54, 19, 84) !important;
+  padding-top: 15px !important;
+  transition: all 1s ease;
+}
+/*
+  end css custom jquery navbar fixed 
+*/
 .navBar .container {
   display: flex;
   justify-content: space-between;
@@ -379,4 +396,108 @@ section.bestTour .bestTourCard .item .bestTourCardCalendar span {
   /* letter-spacing: 2px; */
   margin: 0 1px;
 }
+.back-to-top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: linear-gradient(60deg, #fa9e1b, #8d4fff);
+  border-radius: 50%;
+  opacity: 0.6;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 300ms ease;
+}
+.back-to-top-button span i {
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 32px;
+}
+.back-to-top-button:hover {
+  transform: scale(1.07);
+  opacity: 0.9;
+}
+/* section deluxe package */
+section.deluxe_package {
+  /* background: url(../images/background_sea.jpg); */
+  background: linear-gradient(to right, rgba(250, 157, 27, 0.5), #8d4fff),
+    url(../images/background_sea.jpg);
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+section.deluxe_package .container {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  background-color: #fff;
+  
+}
+section.deluxe_package .container button{
+  display: block;
+  margin: 0 auto;
+}
+
+
+section.deluxe_package .container h2{
+  margin-top: 50px;
+  font-weight: bold;
+}
+section.deluxe_package .container span{
+  font-weight: 300;
+  line-height: 2.3;
+  color:#a5a5a5;
+  font-size: 30px;
+}
+
+section.deluxe_package .container p i:first-child {
+  color: #ffeb8d;
+}
+section.deluxe_package .container p i:nth-child(2) {
+  color: #fed46b;
+}
+section.deluxe_package .container p i:nth-child(3) {
+  color: #fbb53d;
+}
+section.deluxe_package .container p i:nth-child(4) {
+  color: #fa9e1b;
+}
+section.deluxe_package .container p i:nth-child(5) {
+  color: #a5a5a5;
+  
+}
+section.deluxe_package .container .BookNow {
+  background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+  background-size: 200%;
+  font-size: 13px;
+  color: #fff;
+  display: inline-blocks;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 15px 60px 15px 60px;
+  text-align: center;
+  border: none;
+  /* opacity: 0; */
+  transition: all 500ms ease;
+  transform: scale(1);
+  margin-top: 80px;
+}
+section.deluxe_package .container .BookNow span i {
+  font-size: 5px;
+  vertical-align: middle;
+  padding: 0 2px;
+}
+.bestTourCardButton .button2 span i:nth-child(2) {
+  opacity: 0.6;
+}
+.bestTourCardButton .button2 span i:last-child {
+  opacity: 0.4;
+}
+
+/* section.deluxe_package{
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
