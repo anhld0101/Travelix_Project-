@@ -434,22 +434,20 @@ section.deluxe_package .container {
   font-weight: bold;
   font-size: 2.5rem;
   background-color: #fff;
-  
 }
-section.deluxe_package .container button{
+section.deluxe_package .container button {
   display: block;
   margin: 0 auto;
 }
 
-
-section.deluxe_package .container h2{
+section.deluxe_package .container h2 {
   margin-top: 50px;
   font-weight: bold;
 }
-section.deluxe_package .container span{
+section.deluxe_package .container span {
   font-weight: 300;
   line-height: 2.3;
-  color:#a5a5a5;
+  color: #a5a5a5;
   font-size: 30px;
 }
 
@@ -467,7 +465,6 @@ section.deluxe_package .container p i:nth-child(4) {
 }
 section.deluxe_package .container p i:nth-child(5) {
   color: #a5a5a5;
-  
 }
 section.deluxe_package .container .BookNow {
   background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
@@ -501,3 +498,89 @@ section.deluxe_package .container .BookNow span i {
   justify-content: center;
   align-items: center;
   /* display: flex; */
+section.feedback {
+  margin-top: 60px;
+}
+section.feedback .item_top {
+  background-color: #fa9e1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  position: relative;
+  left: 12px;
+  top: -35px;
+}
+section.feedback .item {
+  background: url("../images/feedback_img1.webp");
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+}
+section.feedback .item_bottom {
+  position: relative;
+  top: 236px;
+  left: -12px;
+}
+section.feedback .item_bottom .author_fb {
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 20px;
+  letter-spacing: 0.1rem;
+}
+
+section.feedback .content_fb {
+  color: #fff;
+  background: rgba(49, 18, 75, 0.8);
+}
+section.feedback .content_fb {
+  min-width: 330px;
+}
+section.feedback .row {
+  justify-content: center;
+}
+section.feedback .content_fb {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 46px;
+  padding-bottom: 8px;
+}
+
+section.feedback .content_fb p {
+  font-size: 28px;
+}
+
+section.trending_Hotel .container .item {
+  display: flex;
+  margin-top: 30px;
+}
+section.trending_Hotel .container .info_hotel a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+section.trending_Hotel .container .info_hotel a:hover {
+  color: #fa9e1b;
+}
+section.trending_Hotel .container .info_hotel p {
+  color: #fa9e1b;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+section.trending_Hotel .container .info_hotel span {
+  text-transform: uppercase;
+  position: relative;
+  top: 11px;
+  color: #929191;
+
+}
+section.trending_Hotel .info_hotel {
+  position: relative;
+  margin-left: 15px;
+  top: -7px;
+}
