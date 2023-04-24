@@ -577,10 +577,160 @@ section.trending_Hotel .container .info_hotel span {
   position: relative;
   top: 11px;
   color: #929191;
-
 }
 section.trending_Hotel .info_hotel {
   position: relative;
   margin-left: 15px;
   top: -7px;
 }
+section.getInTouch {
+  background: url(../images/getInTouch_bg.png);
+  min-height: 800px;
+  min-width: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+section.getInTouch .container form {
+  min-width: 100px;
+  min-height: 500px;
+  background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+  border-radius: 7px;
+  padding: 0 30px;
+}
+section.getInTouch .container h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+section.getInTouch h2 {
+  margin: 60px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+section.getInTouch form {
+  min-width: 200px;
+  min-height: 700px;
+  background: linear-gradient(to right, #fa9e1b, #8d4fff);
+  border-radius: 35px;
+  margin-top: 30px;
+}
+section.getInTouch form input,
+section.getInTouch form textarea {
+  min-width: 200px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #fff;
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+
+section.getInTouch form input::placeholder,
+section.getInTouch form textarea::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+section.getInTouch form input:focus-visible,
+section.getInTouch form textarea:focus-visible {
+  outline: none;
+}
+section.getInTouch form input:first-child {
+  margin-right: 30px;
+}
+
+section.getInTouch form button {
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: none;
+  border-radius: 36px;
+  background-color: #31124b;
+  transform: scale(1);
+  font-size: 9px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.4s ease-out;
+  text-transform: uppercase;
+}
+
+section.getInTouch form button:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+section.getInTouch form button span i {
+  font-size: 6px;
+  vertical-align: middle;
+  padding: 0 3px;
+}
+section.getInTouch form button span i:nth-child(2) {
+  opacity: 0.6;
+}
+section.getInTouch form button span i:last-child {
+  opacity: 0.4;
+}
+footer.footer {
+  min-height: 300px;
+  width: 100%;
+  background-color: #350a4e;
+}
+
+footer.footer h2 {
+  color: #fff;
+}
+footer.footer span {
+  color: #fff;
+}
+
+footer .social_symbol a i {
+  font-weight: bold;
+  border-radius: 30px;
+  /* color: #fa9e1b; */
+  border: 1px solid #fa9e1b;
+  padding: 6px;
+}
+footer .social_symbol a {
+  margin-right: 8px;
+}
+footer .logo_footer {
+  display: flex;
+}
+footer.footer span {
+  line-height: 2px;
+}
+footer .social_symbol {
+  margin-top: 3px;
+}
+
+footer.footer .logo_footer p {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 22px;
+}
+footer .footer_bottom {
+  text-align: center;
+}
+
+footer .footer_bottom a:hover{
+  color: #fa9e1b;
+  font-weight: bold;
+}
+footer .blog_posts .blog_posts_content .blog_posts_info p{ 
+  color: #fa9e1b;
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .blog_posts .blog_posts_content .blog_posts_info p:nth-last-child(){ 
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .blog_posts_content .item{
+  display: flex;
+}
+
+
+
