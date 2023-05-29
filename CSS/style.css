@@ -154,6 +154,7 @@ p {
 .navBarCenter a:hover::after {
   opacity: 1;
 }
+
 .button1 {
   background-image: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
   background-size: 200%;
@@ -723,7 +724,7 @@ footer .blog_posts .blog_posts_content .blog_posts_info p{
   font-size: 14px;
   font-weight: 400;
 }
-footer .blog_posts .blog_posts_content .blog_posts_info p:nth-last-child(){ 
+footer .blog_posts .blog_posts_content .blog_posts_info p:nth-child(1){ 
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -731,6 +732,94 @@ footer .blog_posts .blog_posts_content .blog_posts_info p:nth-last-child(){
 footer .blog_posts_content .item{
   display: flex;
 }
+
+footer .blog_posts_content .blog_posts_info {
+  margin-left: 15px;
+}
+footer .blog_posts_content .blog_posts_info p{
+  margin-bottom: 0;
+}
+footer .blog_posts_content .item {
+  margin-bottom: 30px;
+}
+
+footer .blog_posts_content .blog_posts_info p:nth-child(1):hover{
+  color: #fa9e1b;
+  cursor: pointer;
+
+}
+
+footer .tags_information li{
+  border: 3px solid #fa9e1b;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 11px;
+margin-bottom: 8px;  
+}
+
+footer .tags_information ul li a{
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 33px;
+
+}
+footer .tags_information ul{
+  padding: 0 20px;
+}
+
+footer .tags_information ul li:hover{
+  background-color: #fa9e1b;
+  color: #fff;
+  cursor: pointer;
+}
+footer .tags_information ul li:hover>a{
+  
+  color: #fff;
+}
+
+footer .contact_info span{
+  line-height: 3.3;
+}
+
+.navBarRight .toggleNavbar{
+  margin-left: 8px;
+  margin-bottom: 7px;
+}
+
+#offcanvasRight{
+  background: linear-gradient(-300deg, #fa9e1b, #8d4fff);
+}
+
+.btn-close{
+  background: none;
+  color: #fff !important;
+}
+
+.btn-close:hover{
+  color: #fa9e1b !important;
+}
+
+.offcanvas-body li > a{
+  
+  font-family: "beyond_the_mountains";
+  color: #fff !important;
+}
+.offcanvas-body >li{
+  padding: 15px;
+}
+
+.offcanvas-body li:hover a{
+  
+  color: #fa9e1b !important;
+  cursor: pointer;
+}
+..offcanvas-header{
+  justify-content: center;
+}
+
+
+
 
 
 
