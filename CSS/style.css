@@ -814,7 +814,7 @@ footer .contact_info span{
   color: #fa9e1b !important;
   cursor: pointer;
 }
-..offcanvas-header{
+.offcanvas-header{
   justify-content: center;
 }
 

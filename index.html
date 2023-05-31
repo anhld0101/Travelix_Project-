@@ -33,6 +33,7 @@
     />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/responsive.css" />
+    <link rel="stylesheet" href="./CSS/cardapi.css">
   </head>
 
   <body>
@@ -120,12 +121,19 @@
       </div>
     </header>
     <main>
+      <section class="tour_sydney">
+        <div class="container">
+            <h2 class="text-center my-5 fw-bold">-- SYDNEY TOUR --</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="renderTourApi">
+            </div>
+        </div>
+    </section>
       <section class="inputBooking">
         <div class="container">
           <!-- chừa lại để code -->
         </div>
       </section>
-      <section class="bestTour mb-5">
+      <!-- <section class="bestTour mb-5">
         <div class="container">
           <h2>We have the best tours</h2>
           <p>
@@ -217,7 +225,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="deluxe_package">
         <div class="container">
           <h2>MALDIVES DELUXE PACKAGE</h2>
@@ -243,7 +251,7 @@
           </button>
         </div>
       </section>
-      <section class="bestOffer">
+      <!-- <section class="bestOffer">
         <div class="container">
           <div class="row">
             <div class="item col-md-6 col-sm-12 col-xs-12">
@@ -432,7 +440,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="feedback">
         <div class="container">
           <div class="row">
@@ -745,6 +753,7 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+    <script src="./lib/callApi.js"></script>
     <script src="./lib/index.js"></script>
   </body>
 </html>
